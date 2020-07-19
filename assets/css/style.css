@@ -10,3 +10,50 @@ h1,h2,h3,h4,h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
+
+/*--Navigation images 
+
+.NavCards {
+  position: relative;
+  font-family: 'Roboto'sans-serif;
+  height: 400px;
+  width: 100%;
+}
+*/
+.img-fluid {
+    min-width: 100%;
+    min-height: 150px
+
+}
+
+.xclusiveexperience {
+    background-image: url('xclusiveexperience.jpg'); z-index: 10000;
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.experience {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.text-block {
+    background-color: rgba(46, 44, 44, 0.479)
+}
+
+.navimagecards {
+    padding: 15px 0px 15px 0px;
+    min-width: 60%;
+    min-height: 70%;
+}
+
+
