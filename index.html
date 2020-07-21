@@ -230,10 +230,10 @@
             <div class="card-body">
                 <h1 class="font-weight-light text-center py-3">Contact Us</h1>
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class="row pt-3">
                                 <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
-                        
+                                <span><i class="fas fa-map-marker-alt"></i></span>
                                 </div>
                                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
                                  <h3 class="font-weight-light">Find Us</h3>
@@ -244,7 +244,7 @@
                             </div>
                             <div class="row pt-3">
                                 <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
-                        
+                                <span><i class="fas fa-phone-alt"></i></span>
                                 </div>
                                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
                                  <h3 class="font-weight-light">Give Us A Ring</h3>
@@ -254,15 +254,31 @@
                                  </div>   
                             </div>
                          </div>
-                         <div class="col-lg-6">
-
+                         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" placeholder="First Name" required>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control" placeholder="Last Name" required>
+                                    </div>
+                                </div>
+                                <label>Email</label>
+                                <input type="email" name="Email" id="Email" placeholder="Email" class="form-control" required>
+                                <label>Your Message</label>
+                                <textarea class="form-control mb-3" name="" id="" cols="20" rows="5" placeholder="Include any specific requirements you may have here..."></textarea>
+                                <input type="checkbox" name="" id=""> <label for="">I'm not a robot.</label> <button class="btn btn-dark float-right">Send Message</button>
+                            </form>
                         </div>
                     </div>
             </div>
         </div>
     </div>
 </section>
-<div class="container-fluid contact">
+<!--<div class="container-fluid contact">
     <h3>Contact Us</h3>
         <form>      
             <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
