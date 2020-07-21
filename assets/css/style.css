@@ -2,6 +2,10 @@
 
 /*----Fonts----*/
 
+.bg-dark {
+    background-color: #000000!important;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -10,7 +14,6 @@ h1,h2,h3,h4,h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
-
 
 /*--Home page*/
 
@@ -95,11 +98,7 @@ h1,h2,h3,h4,h5 {
 }
 */
 
-.img-fluid {
-    min-width: 100%;
-    min-height: 150px
 
-}
 
 .xclusiveexperience {
     background-image: url('xclusiveexperience.jpg'); z-index: 10000;
@@ -125,6 +124,15 @@ h1,h2,h3,h4,h5 {
     background-color: rgba(46, 44, 44, 0.479)
 }
 
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background: #000000;
+    color: #fff;
+}
+
 .navimagecards {
     padding: 15px 0px 15px 0px;
     min-width: 60%;
@@ -132,7 +140,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .navbody {
-    background: #000000;
+    background: #343A40;
 }
 
 .navbody p {
@@ -143,7 +151,3 @@ h1,h2,h3,h4,h5 {
     align-content: center;
     text-align: center;
 }
-
-
-
-

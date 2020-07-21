@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
 <link rel="stylesheet" href="assets/css/style.css">
 <title>XCLUSIVE SUITS|Home</title>
 </head>
@@ -109,37 +110,75 @@
 <hr>
 <!--Image cards with links to Experience, Materials & About Us -->
 <section>
-<div class="container-fluid navbody">
+<div class="container navcards">
 <div class="row">
-<div class="col navimagecards">
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="https://i.insider.com/5395f549eab8ea975be61436?width=1100&format=jpeg&auto=webp" class="card-img-top" alt="Xclsuive Experience">
+  <div class="card-body">
+    <h5 class="card-title">The Xclusive Experience</h5>
+    <p class="card-text">Find out what makes our experience the best in the business with a behind the scenes exclsuive and testiomonials from our clients.</p>
+    <a href="#" class="btn btn-dark">Xclsuive Experience</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="https://content.fortune.com/wp-content/uploads/2020/01/BES.02.20.Kathryn-Sergent-A.jpg" class="card-img-top" alt="Xclsuive Materials">
+  <div class="card-body">
+    <h5 class="card-title">Xclsuive Materials</h5>
+    <p class="card-text">We use the finest and rarest of materials to ensure your comfort and pride are first priority. See the range of materials we use.</p>
+    <a href="#" class="btn btn-dark">Xclsuive Materials</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="https://usatmmajunkie.files.wordpress.com/2017/08/david-august-mcgregor-suit-maker.jpg?w=640" class="card-img-top" alt="CEO">
+  <div class="card-body">
+    <h5 class="card-title">About Us</h5>
+    <p class="card-text">A few words from our CEO on what has driven him to create the most excluive tailoring experience.</p>
+    <a href="#" class="btn btn-dark">About Us</a>
+  </div>
+</div>
+</div>
+</div>
+<!--<div class="container-fluid navbody">
+<div class="row">
+<div class="col-md-4 navimagecards">
   <img src="https://4.imimg.com/data4/LG/UO/MY-28621725/all-types-for-men-fabrics-500x500.jpg" class="img-fluid" alt="Xclusive Experience">
   <div class="experience d-block">
     <h4 class="text-block">Xclusive Experience</h4>
-    <!--<p class="text-block">Find out what makes our experience different from the rest.</p>-->
+    <p class="text-block">Find out what makes our experience different from the rest.</p>
   </div>
 </div>
 </div>     
 <p>Find out what makes our experience different from the rest.</p>
 <div class="row" >
-<div class="col navimagecards">
+<div class="col-md-4 navimagecards">
   <img src="https://content.fortune.com/wp-content/uploads/2020/01/BES.02.20.Kathryn-Sergent-A.jpg?resize=1200,600" class="img-fluid" alt="Xclusive Materials">
   <div class="experience d-block">
     <h4 class="text-block">Xclusive Materials</h4>
-    <!--<p class="text-block">Find out what makes our experience different from the rest.</p>-->
+    <p class="text-block">Find out what makes our experience different from the rest.</p>
   </div>
 </div>
 </div>     
 <p>Find out what makes our experience different from the rest.</p>
 <div class="row">
-<div class="col navimagecards">
+<div class="col-md-4 navimagecards">
   <img src="https://www.futurefashionnow.com/wp-content/uploads/2018/09/modarn.jpg" class="img-fluid" alt="About Us">
   <div class="experience d-block">
     <h4 class="text-block">About Us</h4>
-    <!--<p class="text-block">Find out what makes our experience different from the rest.</p>-->
+    <p class="text-block">Find out what makes our experience different from the rest.</p>
   </div>
 </div>
 </div> 
 <p>Find out what makes our experience different from the rest.</p>
+</div>-->
 </div>
 </section>           
     
@@ -187,8 +226,15 @@
 <hr>
 
 <div class="container-fluid contact">
-<h3>Contact Us</h3>
-    <div class="row justify-content-center">
+    <h3>Contact Us</h3>
+        <form>      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+            <input name="phone" type="tel" class="feedback-input" placeholder="Phone Number" required>
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+    <!--<div class="row justify-content-center">
         <div class="col mt-3 mb-5">
             <form class="contact-form">
             <div class="form-div">
@@ -213,7 +259,7 @@
             </div>
             </form>
         </div>   
-    </div>
+    </div>-->
 </div>
 
 
