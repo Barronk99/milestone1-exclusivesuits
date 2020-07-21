@@ -3,7 +3,7 @@
 /*----Fonts----*/
 
 .bg-dark {
-    background-color: #000000!important;
+    background-color: #292929!important;
 }
 
 body {
@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5 {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    background: #000000;
+    background: #292929;
     color: #fff;
 }
 
@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .navbody {
-    background: #343A40;
+    background: #292929;
 }
 
 .navbody p {
