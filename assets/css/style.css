@@ -171,3 +171,11 @@ h1,h2,h3,h4,h5 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/*about page*/
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
