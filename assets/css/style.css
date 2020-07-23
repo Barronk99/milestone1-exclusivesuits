@@ -179,3 +179,11 @@ img {
     border-style: none;
     width: 100%;
 }
+
+.roundedimg {
+    border-radius: 50%;
+    position: relative;
+    left: 85px;
+    padding: 10px 0px 10px 0px;
+    width: 200px;
+}
