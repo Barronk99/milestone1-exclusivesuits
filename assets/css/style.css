@@ -201,6 +201,16 @@ h1,h2,h3,h4,h5 {
     padding-right: 15px;
 }
 
+/* Xclusive Materials Page */
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    left: 35px;
+}
+
 /*about page*/
 
 img {
@@ -251,8 +261,4 @@ img {
     text-align: center;
     color: #ffffff;
     font-size: 10vw;
-}
-
-.imgbutton {
-    
 }
