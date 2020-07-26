@@ -263,3 +263,13 @@ img {
     color: #ffffff;
     font-size: 10vw;
 }
+
+/* footer */
+
+.footernav a {
+    color: #ffffff;
+}
+
+.social-links {
+    text-align: center;
+}
