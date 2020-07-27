@@ -272,4 +272,16 @@ img {
 
 .social-links {
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.footericon {
+    padding: 0 7px 0 7px;
+}
+
+.footertext {
+    color: #fff;
+    text-align: center;
+    margin: 15px 0 15px 0;
 }
