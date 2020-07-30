@@ -15,6 +15,15 @@ h1,h2,h3,h4,h5 {
     font-weight: bold;
 }
 
+.content-text {
+    text-align: center;
+}
+
+.heading-text {
+    text-align: center;
+    font-weight: bold;
+}
+
 /*--Home page*/
 
 .navbar-brand {
@@ -190,10 +199,6 @@ h1,h2,h3,h4,h5 {
 
 #video video {
     width: 100%;
-}
-
-.experiencetext {
-    text-align: center;
 }
 
 .videosection {
