@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5 {
@@ -55,8 +56,8 @@ h1,h2,h3,h4,h5 {
   width: 100%;
 }
 */
-.image1 {
-    background: url('../images/image1.jpg');
+.carousel-image-1 {
+    background: url('../images/carousel-suit-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -64,8 +65,8 @@ h1,h2,h3,h4,h5 {
     background-position: center;
 }
 
-.image2 {
-    background: url('../images/image2.jpg');
+.carousel-image-2 {
+    background: url('../images/carousel-suit-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -73,8 +74,8 @@ h1,h2,h3,h4,h5 {
     background-position: center;
 }
 
-.image3 {
-    background: url('../images/image3.jpg');
+.carousel-image-3 {
+    background: url('../images/carousel-suit-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
