@@ -1,39 +1,24 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Xclusive Suits 
+A bespoke website for corporate and wealthy business people looking for the best tailor made suits. 
+Unlike usual suit websites this site is made for people who don’t shop for prices but are looking for the highest quality service with an outstanding reputation so named testimonials,
+detailed suit designs and visual examples of the personal tailor experience are vital for the visitor to see. 
 
-Welcome Barronk99,
+## UX
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Ideal client:
+* Coorporate business men
+* Personal Assistants of high profile individuals
+* Celebrities 
+* High profile individuals
 
-## Gitpod Reminders
+Stories:
+* As a new visitor I want to be able to easily navigate around the site and find the relevant information 
+* As a potential client I want to be presented with proof of a good service through positive testimonials 
+* As a new visitor I want to be presented with an aesthetically pleasing website 
+* As a potential client I want to be able to contact the company and see where they are located
+* As a potential client I want to be able to send an enquiry form
+* As a potential client I want to know more about the company
+* As a potential client I want to see the process I will go through to have my suit tailored 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
