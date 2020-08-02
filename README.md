@@ -74,6 +74,26 @@ Followed by this is a center aligned paragraph describing the CEO and what he do
 On large screens content has a margin left and right of auto so that all the content is in the middle of the page with equal white space at either side however on medium and small screens these margings are not set.
 This is because on large screens without the margin the layout does not look clean and instead looks compressed and the images lose their quality.
 
+#### **Existing Features**
+
+* Logo - Appears on all pages and shows users the business' brand. Clicking the logo will navigate users back to the homepage as they would expect on any site.
+* Navbar - Appears on all pages. This allows users to easily and quickly navigate across the site regardless of what page they are on.
+* Image Carousel - Appears only on the home page. Allows users to immediately see what the website is about.
+* Copyright information - Appears in the footer of all pages. This protects the business from any copyright issues.
+* Social Icons - Appears in the footer of all pages. This allows the user to visit the business' social media pages and find out more about them.
+* Promotional Video - Appears only on The Xclusive Experience page. This video showcases the process of having a suit tailored and gives the user an insight into what to expect.
+* Modals - Appears only on the Xclusive Materials page. These modals act as pop up windows so when they are clicked the modal comes forward onto the screen and contains more informaton for the user to read into.
+* About Us Page - Allows potential customers to get an understading of how the business started and what the goal is.
+* Xclusive Materials Page - Allows potential customers to view the main materials that will be used in the suits they have tailored.
+* The Xclusive Experience Page - Allows users to see what to expect from their experience with Xclusive Suits and see what others had to say about their experience.
+
+#### **Features to implement in the future**
+
+* GDPR pop up - This would allow new vistors to agree to their personal information being processed. Also, it would ensure the business is up to date protected from any violations of EU Data Protection laws. This would need javascript to be implemented.
+* CAPTCHA - This would add extra validation on the contact form and prevent any spam going through to the company emails. This would need javascript to be implemented.
+* FAQ Page - A page featuring frequently asked questions from web visitors would be beneficial for users to have access to these questions quickly and easily. This could be added now although Javascript would be needed to make a better version of it.
+* Live Instagram Gallery - A sperate page for a live Instagram gallery which updates in real time when an Instagram post is made on the company's Instagram page. This would need Javascript to be implemented.
+* Sample Products Page - A page for users to order sample materials so they can get a feel or it before commiting. Ths would need javascript to be implemented.
 
 
 
