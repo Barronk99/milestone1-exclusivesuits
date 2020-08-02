@@ -28,6 +28,10 @@ Each page also features a footer which has links to social media pages, website 
 
 Every page apart from the home page also has a h3 heading at the top of the page as a main title for the content. The homepage instead has a textblock with a grey backgroud for contrast with white text which reads 'Welcome to Xclusive SUITS' a simple welcome message to comfort the visitor.
 
+All pages features a contact us section. This section includes the business location with a heading and location marker icon to indicate this, it also includes the business phone number also with a heading and a phone icon to indicate it and finally a contact form. 
+The contact form asks for first and last name, email address and the option of a message too followed by a submit button at the end. 
+The first name, last name and email input fields are set as required fields and the email field is set with a validator so an error message will appear if a false email has been enterd. This will help the business to filter out spam and incorrect information for nurturing leads. 
+
 #### **Home**
 
 On the homepage appears a full scree image carousel with a welcome message and a small heading with a catchy slogan on each image. This feature is so straight away the visitor can see what the company is about and the quality of suits the company produces, demonstrated by the images in the carousel, and also what they can expect as they scroll through the site and gathr more information. This is important because a good first impression is key to making sure the visitor stays on the site for as long as possible but also so the visitor knows exactly what to expect from the website and the business.
@@ -69,6 +73,8 @@ Followed by this is a center aligned paragraph describing the CEO and what he do
 
 On large screens content has a margin left and right of auto so that all the content is in the middle of the page with equal white space at either side however on medium and small screens these margings are not set.
 This is because on large screens without the margin the layout does not look clean and instead looks compressed and the images lose their quality.
+
+
 
 
 
