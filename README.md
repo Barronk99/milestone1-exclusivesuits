@@ -39,12 +39,38 @@ Finally, after the sales section comes three navigation cards each which feature
 #### **The Xclusive Experience** 
 
 The Xclusive Experience page features a heading followed by small print text underneeth which is a slogan, for extra design. Underneath the pages heading is a full width video which demonstrates the process of using Xclusive Suits. This video appears as the fist thig on the page because it shows everything and it is convenient with it being a short consice video lasting only 1 minute and 18 seconds. The video is set with controls so it doesn't automatically play just incase visitors are not connected to WiFi and don’t want to use their data.
+
 Just underneath the video comes a small paragraph that runs the length of the screen and gives a brief explanation of what to expect from the Xclusive Suits, this is only a brief paragraph because the video has already covered most if not evryhting the user will need to know about how their service will work.
+
 Next after the paragraph is a full width image banner with the 5 steps of the Xclusive experience and five genetlemen in various suits showing the range and variety the Xclusive Suits has to offer. However, on small screens and up to 518px wide I have split the images into two halves so the five steps banner and the 5 gentlemen in suits cover a full column each so the two images appear one ofter the other. 
-Finally, the testimonials sections. This section features 3 testimonials from high profile individuals who have used the service before. Each testimonial includes a rounded image of the person to give it a more modern and sleek look, followed by the name and title of the person in bold text so it stands out and gives emphasis on who they are and what they do but also to contrast with the paragraph below which is their testimonial for Xclusive Suits. The testiominal is a paragraph with its text aligned ceterally for an organised and professional look as both the rounded image and name titles are centered inside thier columns.
+
+Finally, the testimonials sections. This section features 3 testimonials from high profile individuals who have used the service before. Each testimonial includes a rounded image of the person to give it a more modern and sleek look, followed by the name and title of the person in bold text so it stands out and gives emphasis on who they are and what they do but also to contrast with the paragraph below which is their testimonial for Xclusive Suits. 
+The testiominal is a paragraph with its text aligned ceterally for an organised and professional look as both the rounded image and name titles are centered inside thier columns.
 On bigger screens starting from a width of 691px the testiominals are divided equalliy in the same column each taking a third of the screen howver on screens with a width smaller than 691px each testiomials features in its own full with colum so they each appear one after the other rather than side by side.
 
 #### **Xclusive Materials**
+
+On the Xclusive Materials page is 4 image cards with white text headings of the material they represent along with an image showcasing the material on a suit. The 4 image cards are modal buttons so clicking on the image triggers a modal to pop up.
+
+Each model featurs a title, another image of the material and then 3 sections; A paragraph talking about the material, a section on it's top qualities and then a section on why we chose that specific varient of it's type. 
+And at the end of the modal is a close button.
+
+On large screens with a minimum width of 892px the 4 images are split into 2 columns so each column shares 2 images each taking up equal width. However, on screens with a width up to 891px the images each have their own columns and appear one after the other. 
+This is because the modal button overlapped on screen sizes less than 891px when the images shared a column so it didn't look clean and professional. So, by alternating the appearence for smaller screens it maintains a clean, professional look as users would expect.
+
+#### **About Us** 
+
+The About Us page starts with a black and white image of a group of men wearing suits. This is to reflect how long Xclusive Suits has been operating and show the user it is a long standning, successful business. 
+
+Follwing this picture is a paragraph that is center aligned and gives an explanation of when Xclusive Suits started and what the company goal is.
+
+After the first paragraph comes a rounded image of the CEO with bold text underneath for the name and title of the company CEO like the ones in the testimonials section on The Xclusive Experience. 
+Followed by this is a center aligned paragraph describing the CEO and what he does both for the company and outside of the company. 
+
+On large screens content has a margin left and right of auto so that all the content is in the middle of the page with equal white space at either side however on medium and small screens these margings are not set.
+This is because on large screens without the margin the layout does not look clean and instead looks compressed and the images lose their quality.
+
+
 
 
 
