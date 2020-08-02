@@ -95,6 +95,14 @@ This is because on large screens without the margin the layout does not look cle
 * Live Instagram Gallery - A sperate page for a live Instagram gallery which updates in real time when an Instagram post is made on the company's Instagram page. This would need Javascript to be implemented.
 * Sample Products Page - A page for users to order sample materials so they can get a feel or it before commiting. Ths would need javascript to be implemented.
 
+## Technologies Used 
+
+* HTML & CSS programming languages are used across the entire site.
+* Bootsrap CDN: Bootsrap CDN was used with this project for structuring the page and building a responsive website.
+* Google Fonts: Google Fonts was used to style the fonts on the website with different fonts to the default ones used by the browser.
+* Font Awesome : Font Awesome is used to add icons e.g. social icons and the contact us icons. 
+
+
 
 
 
