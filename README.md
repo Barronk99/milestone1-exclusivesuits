@@ -26,8 +26,10 @@ Stories:
 * As a new visitor I want to be presented with an aesthetically pleasing website 
 * As a potential client I want to be able to contact the company and see where they are located
 * As a potential client I want to be able to send an enquiry form
-* As a potential client I want to know more about the company
+* As a potential client I want to know more about the company and what their goal is
 * As a potential client I want to see the process I will go through to have my suit tailored 
+* As a potential client in the future I want to keep up to date with the business via social media 
+* As a visitor I want links to social media to open in a new tab so I do not lose where I was on the site
 
 **Wireframe mockups:**
 
