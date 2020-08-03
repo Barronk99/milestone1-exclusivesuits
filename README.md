@@ -1,15 +1,24 @@
-# Xclusive Suits 
+# **Xclusive Suits** 
 A bespoke website for corporate and wealthy business people looking for the best tailor made suits. 
 Unlike usual suit websites this site is made for people who don’t shop for prices but are looking for the highest quality service with an outstanding reputation so named testimonials,
 detailed suit designs and visual examples of the personal tailor experience are vital for the visitor to see. 
 
-## UX
+## **UX**
 
 Ideal client:
 * Coorporate business men
 * Personal Assistants of high profile individuals
 * Celebrities 
 * High profile individuals
+
+**Visitors to this website are searchig for:**
+* A custom made suit
+
+**This website is the best way to help them achieve this because:**
+* Most suit tailors are old fashioned and out of touch with modern methods to showcase their service
+* Other suit tailors do not display enough information on their website for visitors to be able to make a decision without visiting their physical location
+* Most suit companies do not provide easy navigation with simple enough informationto learn about the brand
+* This website gives the visitor the information they need without overloading them
 
 Stories:
 * As a new visitor I want to be able to easily navigate around the site and find the relevant information 
@@ -19,6 +28,13 @@ Stories:
 * As a potential client I want to be able to send an enquiry form
 * As a potential client I want to know more about the company
 * As a potential client I want to see the process I will go through to have my suit tailored 
+
+**Wireframe mockups:**
+
+
+
+
+
 
 ## Features 
 
