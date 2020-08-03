@@ -155,6 +155,16 @@ To remove the GitHub repository type 'git remote rm origin' into the terminal.
 ### **Content**
 
 * The text used for the video caption on The Xclusive Experience page was used from the [David August webiste 'Custom Made' page](https://davidaugustinc.com/pages/custom-made).
+* The text used in the modal pop ups are from [this article](https://www.contrado.co.uk/blog/6-of-the-best-fabrics-for-suits/) about the best fabrics to use on a suit.
+
+### **Media**
+
+* The images used in the Home page's carousel and the black and white image on the About Us page are from [Unsplash](https://unsplash.com/).
+* All the rounded images used in the testimonials section and the About Us page are from [Google Images](https://www.google.com/imghp) filtered with permission for reuse.
+* The full width image banner on The Xclusive Experience page are two seperate images from [Google Images](https://www.google.com/imghp) filtered with permission for reuse.
+* The full width image banner was edited to appear as one image by using [Canva](https://www.canva.com/) a photo editing software.
+* The video on The Xclusive Experience page was downloaded from [YouTube](https://www.youtube.com/watch?v=k_iosZQ_FwE).
+
 
 
 
