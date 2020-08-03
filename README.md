@@ -38,7 +38,7 @@ Stories:
 
 
 
-## Features 
+## **Features** 
 
 All pages feature a navbar which is responsive with a fixed logo in the top left and the menu items to the right of the logo on desktop but appears centrally with the menu icon just below the logo on screen sizes less than 991px wide. 
 
@@ -113,15 +113,48 @@ This is because on large screens without the margin the layout does not look cle
 * Live Instagram Gallery - A sperate page for a live Instagram gallery which updates in real time when an Instagram post is made on the company's Instagram page. This would need Javascript to be implemented.
 * Sample Products Page - A page for users to order sample materials so they can get a feel or it before commiting. Ths would need javascript to be implemented.
 
-## Technologies Used 
+## **Technologies Used** 
 
 * HTML & CSS programming languages are used across the entire site.
 * Bootsrap CDN: Bootsrap CDN was used with this project for structuring the page and building a responsive website.
 * Google Fonts: Google Fonts was used to style the fonts on the website with different fonts to the default ones used by the browser.
 * Font Awesome : Font Awesome is used to add icons e.g. social icons and the contact us icons. 
 
+## **Testing**
 
+View the [TESTING.md](https://github.com/Barronk99/milestone1-exclusivesuits/blob/master/TESTING.md) file to see testing information.
 
+## **Deployment**
+
+This project was written and developed using [GitPod](https://gitpod.io/) and pushed to GitHub by using GitPod's command line functions.
+
+How to deploy this page from its [GitHub Repositary](https://github.com/Barronk99/milestone1-exclusivesuits) using GitHub Pages: 
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select AJGreaves/portrait-artist.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the [link](https://barronk99.github.io/milestone1-exclusivesuits/) to the deployed website.
+
+### **Running the project locally**
+
+To clone this project from GitHub:
+
+You can paste the repository link directly into any editor you use with the command 'git clone'. For example:
+
+git clone https://github.com/barronk99/milestone1-exclusivesuits
+
+To remove the GitHub repository type 'git remote rm origin' into the terminal.
+
+[click here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to read more on troubleshooting and cloning GitHub repositories.
+
+## **Credits**
+
+### **Content**
+
+* The text used for the video caption on The Xclusive Experience page was used from the [David August webiste 'Custom Made' page](https://davidaugustinc.com/pages/custom-made).
 
 
 
