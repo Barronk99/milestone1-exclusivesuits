@@ -48,3 +48,37 @@ Websites most common path:
 9. As a visitor I want links to social media to open in a new tab so I do not lose where I was on the site
     * a) All social media links have an attribute set so they open in a new tab.
 
+### **Manual (Logical) Testing of all the elements and functionality on each page**
+
+#### **Home Page:**
+
+1. Navigation Bar:
+    * I opened the home page on a desktop and used dev tools to switch the view to a ipad to test if the navigation bar is responsive. The test was successful and the navigation items collapse into a hamburger menu icon.
+    * I checked for any overflow in the navbar causing a change in sizing for the navigation items. Test was succussful and there is no overflow.
+    * I have hovered over the logo on desktop view and checked if the alt text appears especially for screen readers. The alt text did not appear however I have since added this feature and it now appears.
+    * I have clicked on the logo in the navigation bar to ensure it links back to the home page from all pages. Test was successful.
+    * I have clicked on each navigation item to ensure it links to the correct page. Test was successful.
+    * I have clicked on the 'Contact Us' item and checked that it scrolls down to the bottom of each page where the contact us section is located. Test was successful.
+    * I have changed the screen size to mobile and verified that the menu icon drops down and shows each item without any spacial or sizing problems. Test was successful.
+    * *Repeated each of these steps on a mobile and a tablet.*
+
+2. Full screen image carousel: 
+    * Opened the home page on a desktop and verified the carousel takes up the full width and height of the screen. Test was successful.
+    * Switched the view to tablet and then mobile to validate the responsiveness. Test was successful the images maintain their quality and resizes in proportion to the screen.
+    * Opened the home page and waited for a few seconds to see if the images automatically scroll to the next one. Test was successful.
+
+3. Short sales pitch section:
+    * Opened the home page on a desktop and reduced and expanded the screen resolution to verify that the text is responsive across all devices and screen sizes. Test was successful.
+
+4. Navigation Cards:
+    * Opened the home page on desktop to ensure each card shared equal spacing in one column. Test was successful.
+    * Reduced the screen size to mobile and tablet to verify that the cards take up their own column and appear one after the other. Test was successful.
+    * Clicked on each card's button that directs to it's designated page to test that their links were working and directed users to the right page. Test was successful.
+
+5. Footer:
+    * Clicked on each social icon to ensure that they link to the correct site and are working. Test was successful.
+    * Clicked on each social icon to ensure that they open in a new tab. Test was successful.
+    * Clicked on each page link to ensure that they link to the correct page and do not open in a new tab. Test was successful.
+    * Reduced and expanded the screen to ensure that the footer was fully respnsive and did not cause any content to be commpressed and overlap. Test was successful.
+
+
