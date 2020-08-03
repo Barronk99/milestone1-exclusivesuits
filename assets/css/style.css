@@ -121,8 +121,6 @@ h1,h2,h3,h4,h5 {
 }
 */
 
-
-
 .xclusiveexperience {
     background-image: url('xclusiveexperience.jpg'); z-index: 10000;
     height: 150px;
@@ -242,15 +240,6 @@ img {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.page-direction {
-    color: #aaaaaa;
-    text-align: center;
-}
-
-.page-direction a {
-    color: #aaaaaa;
 }
 
 .middleimg {
