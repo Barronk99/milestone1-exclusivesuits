@@ -165,6 +165,11 @@ To remove the GitHub repository type 'git remote rm origin' into the terminal.
 * The full width image banner was edited to appear as one image by using [Canva](https://www.canva.com/) a photo editing software.
 * The video on The Xclusive Experience page was downloaded from [YouTube](https://www.youtube.com/watch?v=k_iosZQ_FwE).
 
+### **Code**
+
+* The HTML used for the Contact Us section was originaly from [How to make responsive Contact Us Page in Bootstrap 4 || Contact form in Bootstrap 4](https://www.youtube.com/watch?v=wIH86qpmsKo&list=LLXm_cCPVSVam4yyPRnkl0AQ&index=3&t=3s).
+* The HTML used for the Footer was originaly taken from the Code Institute Resume Project in the User Centric Development module. 
+
 
 
 
