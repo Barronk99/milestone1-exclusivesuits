@@ -53,7 +53,7 @@ Websites most common path:
 #### **Home Page:**
 
 1. Navigation Bar:
-    * I opened the home page on a desktop and used dev tools to switch the view to a ipad to test if the navigation bar is responsive. The test was successful and the navigation items collapse into a hamburger menu icon.
+    * I opened the page on a desktop and used dev tools to switch the view to a ipad to test if the navigation bar is responsive. The test was successful and the navigation items collapse into a hamburger menu icon.
     * I checked for any overflow in the navbar causing a change in sizing for the navigation items. Test was succussful and there is no overflow.
     * I have hovered over the logo on desktop view and checked if the alt text appears especially for screen readers. The alt text did not appear however I have since added this feature and it now appears.
     * I have clicked on the logo in the navigation bar to ensure it links back to the home page from all pages. Test was successful.
@@ -75,10 +75,93 @@ Websites most common path:
     * Reduced the screen size to mobile and tablet to verify that the cards take up their own column and appear one after the other. Test was successful.
     * Clicked on each card's button that directs to it's designated page to test that their links were working and directed users to the right page. Test was successful.
 
+5. Contact Us: 
+    * Opened the page and scrolled to the contact us section to verify it was there after the content of the page. Test was successful.
+    * Reduced and expanded the window to verify the contact us section is fully respnsive. Test was successful.
+    * Attempted to submit the contact form without filling in each required field to verify it would pop up with an error message. Test was successful.
+    * Attempted to submit the contact form without entering a correct email format to ensure that it would pop up with an error message. Test was successful.
+
 5. Footer:
     * Clicked on each social icon to ensure that they link to the correct site and are working. Test was successful.
     * Clicked on each social icon to ensure that they open in a new tab. Test was successful.
     * Clicked on each page link to ensure that they link to the correct page and do not open in a new tab. Test was successful.
     * Reduced and expanded the screen to ensure that the footer was fully respnsive and did not cause any content to be commpressed and overlap. Test was successful.
+
+6. *Double checked all responsiveness and functionality on mobile and tablets.*
+
+#### **The Xclusive Experience page:**
+
+1. Navigation bar:
+    * Navigation bar is identical across all pages on the site. Test was already successful.
+
+2. Page Heading & Small print text:
+    * Opened the page on desktop and reduced and expanded the window to ensure the text was fully responsive. Test was successful.
+
+3. Demo video:
+    * Opened the page and resized the window to ensure the video took the full width of the screen on different sized screens. Test was successful the video is fully responsive.
+    * Opened the page and waited a few seconds to see make sure the video does not auto-play and use my data. Test was successful.
+    * Opened the page and played the video till the end to ensure the video would not automatically restard to ensure my data wasn't over used. Test was successful.
+
+4. Video Caption:
+    * Opened the page on a desktop and reduced and expanded the screen resolution to verify that the text is responsive across all devices and screen sizes. Test was successful.
+
+5. Full width image of the steps:
+    * Opened the page and verified the image spans across the full width of the screen without any white space. Test was successful.
+    * Resized the view to tablet size to verify that the image remains the full width of the screen without any white space at either side. Test was successful.
+    * Resized the window to mobile to verify that the image splits into two images on these screen sizes and each take up their own column so they appear one after the other. Test was successful.
+
+6. Testimonials section:
+    * Opened the page on desktop to verify that the testiomnials share a column equally by a third and do not overlap on desktop. Test was successful.
+    * Resized the view to a tablet to verify that the testimonials remain in a shared column equally taking a third of the space without any of their contet overlapping. Test was successful.
+    * Resized the view to a mobile screen to verify the testiomnials changed so they each take up a full column and appear one after the other without any content overlap. Test was successful.
+    * Verified that the text remained center aligned across all screen sizes. Test was successful.
+
+7. Contact Us:
+    * Contact Us is identical on all pages across the site. Testing already successful.
+
+8. Footer: 
+    * Footer is identical on all pages across the site. Testing already successful.
+
+#### **Xclusive Materials page:**
+
+1. Navigation bar:
+    * Navigation bar is identical across all pages on the site. Test was already successful.
+
+2. Page Heading:
+    * Opened the page on desktop and reduced and expanded the window to ensure the text was fully responsive. Test was successful.
+
+3. Modals: 
+    * Opened the page on desktop and verified the 4 modals shared 2 columns with 2 modals in each column equally taking half of the column size. Test was successful.
+    * Resized the view to tablet and mobile to verify each modal takes up it's own column so they appear one after the other. Test was successful however the only tablet expection was the iPad Pro as it has a screen size over 892px so it is classed a large screen and can handle the 4 models appearing as they do on desktop.
+    * Reduced and expanded the screen to test that the headings over the images were respnsive and did not fall outside the image. The headings were not respnsive but on screens between 339px and 400px the headings began to fall out of the image. Although this is insignificant as these screen sizes do not match with tablet and mobile screens, the issue will be resolved by adding a new media query.
+    * Clicked on each modal to ensure it displayed the right information and content. Test was successful.
+    * Reduced and expanded the window after clicking on a modal to verify it was fully responsive. Test was successful.
+
+5. Contact Us:
+    *Contact Us is identical on all pages across the site. Testing already successful.
+
+4. Footer: 
+    * Footer is identical on all pages across the site. Testing already successful.
+
+#### **About Us page:** 
+
+1. Navigation bar:
+    * Navigation bar is identical across all pages on the site. Test was already successful.
+
+2. Page Heading:
+    * Opened the page on desktop and reduced and expanded the window to ensure the text was fully responsive. Test was successful.
+
+3. Page content:
+    * Opened the page on desktop to make sure the margin left and right was correctly set and centered the content with equal white space either side. Test was successful.
+    * Reduced and expaded the window to verify that the margins left and right only appeard on large screens and dissapeared on medium and small screen so the content contained the entire screen. Test was successful.
+
+4. Contact Us:
+    *Contact Us is identical on all pages across the site. Testing already successful.
+
+5. Footer: 
+    * Footer is identical on all pages across the site. Testing already successful.
+
+
+
 
 
