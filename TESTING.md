@@ -20,15 +20,15 @@ Websites most common path:
 
 ### **Testing the client stories from the UX section in README.md file** ###
 
-1. As a new visitor I want to be able to easily navigate around the site and find the relevant information
+1. As a new visitor I want to be able to easily navigate around the site and find relevant information
     * a) Every page has the navbar at the top and a footer at the bottom with links to all pages on the site.
     * b) The logo in the navbar is linked to the home page so clicking it will always take a user back to the home page.
 
 2. As a potential client I want to be presented with proof of a good service through positive testimonials
-    * a) The Xclusive Experience page provides detailed testimonials from reputable people. This ensure the potential client feels reassured.
+    * a) The Xclusive Experience page provides detailed testimonials from reputable people. This makes sure the potential client feels reassured.
 
 3. As a new visitor I want to be presented with an aesthetically pleasing website
-    * a) The website is made with a consistent colour scheme .
+    * a) The website is made with a consistent colour scheme.
     * b) The wbesites typography is consistent with it's fonts, text alignment and headings.
     * c) The website adjusts on different screen sizes to maintain it's clean, professional and aesthetically pleasing look.
 
@@ -39,8 +39,8 @@ Websites most common path:
     * a) The websites 'Contact Us' section features an equiry form where users can also include a message for any specific information they would like answered.
 
 6. As a potential client I want to know more about the company and what their goal is 
-    * a) The about us page features a section about the company history and their goal.
-    * b) The about us page also features a section about the CEO and insight to his work which is a reflection on the company.
+    * a) The about us page features a section about the company history and their goals.
+    * b) The about us page also features a section about the CEO and an insight into his work which is a reflection on the company.
 
 7. As a potential client I want to see the process I will go through to have my suit tailored
     * a) The Xclusive Experience page has a short, concise and informative video demonstrating the process of having a suit tailored with Xclusive Suits.
@@ -88,7 +88,7 @@ Websites most common path:
     * Clicked on each social icon to ensure that they link to the correct site and are working. Test was successful.
     * Clicked on each social icon to ensure that they open in a new tab. Test was successful.
     * Clicked on each page link to ensure that they link to the correct page and do not open in a new tab. Test was successful.
-    * Reduced and expanded the screen to ensure that the footer was fully respnsive and did not cause any content to be commpressed and overlap. Test was successful.
+    * Reduced and expanded the screen to ensure that the footer was fully responsive and did not cause any content to be commpressed and overlap. Test was successful.
 
 6. *Double checked all responsiveness and functionality on mobile and tablets.*
 
@@ -102,21 +102,21 @@ Websites most common path:
 
 3. Demo video:
     * Opened the page and resized the window to ensure the video took the full width of the screen on different sized screens. Test was successful the video is fully responsive.
-    * Opened the page and waited a few seconds to see make sure the video does not auto-play and use my data. Test was successful.
-    * Opened the page and played the video till the end to ensure the video would not automatically restard to ensure my data wasn't over used. Test was successful.
+    * Opened the page and waited a few seconds to make sure the video does not auto-play and use my data. Test was successful.
+    * Opened the page and played the video until the end to ensure the video would not automatically restart to make sure my data wasn't over used. Test was successful.
 
 4. Video Caption:
     * Opened the page on a desktop and reduced and expanded the screen resolution to verify that the text is responsive across all devices and screen sizes. Test was successful.
 
 5. Full width image of the steps:
-    * Opened the page and verified the image spans across the full width of the screen without any white space. Test was successful.
-    * Resized the view to tablet size to verify that the image remains the full width of the screen without any white space at either side. Test was successful.
+    * Opened the page and verified the image spans across the full width of the screen without any extra white space. Test was successful.
+    * Resized the view to tablet size to verify that the image remains the full width of the screen without any extra white space at either side. Test was successful.
     * Resized the window to mobile to verify that the image splits into two images on these screen sizes and each take up their own column so they appear one after the other. Test was successful.
 
 6. Testimonials section:
-    * Opened the page on desktop to verify that the testiomnials share a column equally by a third and do not overlap on desktop. Test was successful.
+    * Opened the page on desktop to verify that the testiomnials share the column width equally by a third and do not overlap on desktop. Test was successful.
     * Resized the view to a tablet to verify that the testimonials remain in a shared column equally taking a third of the space without any of their contet overlapping. Test was successful.
-    * Resized the view to a mobile screen to verify the testiomnials changed so they each take up a full column and appear one after the other without any content overlap. Test was successful.
+    * Resized the view to a mobile screen to verify the testiomnials changed so they each take up a full width column and appear one after the other without any content overlap. Test was successful.
     * Verified that the text remained center aligned across all screen sizes. Test was successful.
 
 7. Contact Us:
@@ -134,8 +134,8 @@ Websites most common path:
     * Opened the page on desktop and reduced and expanded the window to ensure the text was fully responsive. Test was successful.
 
 3. Modals: 
-    * Opened the page on desktop and verified the 4 modals shared 2 columns with 2 modals in each column equally taking half of the column size. Test was successful.
-    * Resized the view to tablet and mobile to verify each modal takes up it's own column so they appear one after the other. Test was successful however the only tablet expection was the iPad Pro as it has a screen size over 892px so it is classed a large screen and can handle the 4 models appearing as they do on desktop.
+    * Opened the page on desktop and verified the 4 modals shared 2 columns with 2 modals in each column equally taking half width of the screen. Test was successful.
+    * Resized the view to tablet and mobile to verify each modal takes up it's own column so they appear one after the other. Test was successful however the only exception was the iPad Pro as it has a screen size over 892px so it is classed a large screen and can handle the 4 models appearing as they do on desktop.
     * Reduced and expanded the screen to test that the headings over the images were respnsive and did not fall outside the image. The headings were not respnsive but on screens between 339px and 400px the headings began to fall out of the image. Although this is insignificant as these screen sizes do not match with tablet and mobile screens, the issue will be resolved by adding a new media query.
     * Clicked on each modal to ensure it displayed the right information and content. Test was successful.
     * Reduced and expanded the window after clicking on a modal to verify it was fully responsive. Test was successful.
