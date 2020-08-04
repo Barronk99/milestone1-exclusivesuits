@@ -85,6 +85,7 @@ h1,h2,h3,h4,h5 {
 
 .imagetext {
     font-weight: lighter;
+    font-size: 2rem;
 }
 
 .image-overlay {
@@ -168,12 +169,12 @@ h1,h2,h3,h4,h5 {
     font-size: 25px;
 }
 
-.content-wrapper{
+/*.content-wrapper{
     width: 80%;
     margin: 4% 10% 5% 10%;
-}
+}*/
 
-.content-wrapper img{
+/*.content-wrapper*/ img{
     width: 100%;
 }
 
@@ -190,9 +191,9 @@ h1,h2,h3,h4,h5 {
     font-size: 3.5rem;
 }
 
-.italianwool {
+/*.italianwool {
     margin-bottom: 80px;
-}
+}*/
 
 /*about page*/
 
@@ -260,3 +261,9 @@ img {
         font-size: 2.5rem;
     }
 }
+
+/*@media (min-width: 470px) {
+    .materialcards {
+        padding-bottom: 10px;
+    }
+}*/
