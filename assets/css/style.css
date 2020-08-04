@@ -168,6 +168,28 @@ h1,h2,h3,h4,h5 {
     font-size: 25px;
 }
 
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+
+.content-wrapper img{
+    width: 100%;
+}
+
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.text-wrapper h3{
+    text-align: center;
+    color: #ffffff;
+    /*font-size: 10vw;*/
+    font-size: 3.5rem;
+}
+
 .italianwool {
     margin-bottom: 80px;
 }
@@ -196,30 +218,6 @@ img {
 
 .middleimg {
     width: 100%;
-}
-
-/*Xclusive Materials page*/
-
-.content-wrapper{
-    width: 80%;
-    margin: 4% 10% 5% 10%;
-}
-
-.content-wrapper img{
-    width: 100%;
-}
-
-.text-wrapper{
-    width: 100%;
-    position: relative;
-    margin-top: -40%;
-}
-
-.text-wrapper h3{
-    text-align: center;
-    color: #ffffff;
-    /*font-size: 10vw;*/
-    font-size: 3.5rem;
 }
 
 /* footer */
