@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5 {
     font-weight: bold;
 }
 
+.call-to-action {
+    text-align: center;
+}
+
 /*--Home page*/
 
 .navbar-brand {
@@ -85,7 +89,7 @@ h1,h2,h3,h4,h5 {
 
 .imagetext {
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 .image-overlay {
@@ -154,8 +158,8 @@ h1,h2,h3,h4,h5 {
 }
 
 .videosection {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Xclusive Materials Page */
@@ -169,31 +173,40 @@ h1,h2,h3,h4,h5 {
     font-size: 25px;
 }
 
+
+.materialcards1 {
+    background: url('assets/images/cotton-twill.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*.content-wrapper{
     width: 80%;
     margin: 4% 10% 5% 10%;
-}*/
-
-/*.content-wrapper*/ img{
-    width: 100%;
 }
 
-.text-wrapper{
+.content-wrapper img{
+    width: 100%;
+}*/
+
+.text-wrapper {
     width: 100%;
     position: relative;
-    margin-top: -40%;
+    /* margin-top: -40%; */
+    bottom: 5rem;
+    color: #fff;
 }
 
-.text-wrapper h3{
+/*.text-wrapper h3{
     text-align: center;
     color: #ffffff;
-    /*font-size: 10vw;*/
+    /*font-size: 10vw;
     font-size: 3.5rem;
-}
-
-/*.italianwool {
-    margin-bottom: 80px;
 }*/
+
+.italianwool {
+    position: relative;
+}
 
 /*about page*/
 
