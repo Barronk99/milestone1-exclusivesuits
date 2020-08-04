@@ -15,8 +15,8 @@ W3C CSS Validation service and W3C Markup Validation service was used to check t
 ### **Client Stories Testing:**
 
 Websites most common path:
-* Home >> The Xclusive Experience >> Xclusive Materials >> About Us
-* Each page has the contact us section at the bottom of its page so at any time when a visitor feels comfortable they can send an enquiry easily regardless of which page they are currently on.
+* Home >> The Xclusive Experience >> Xclusive Materials >> About Us >> Contact Us
+* Each page has a call to action which links to the contact us page so at any time when a visitor feels comfortable they can send an enquiry easily regardless of which page they are currently on.
 
 ### **Testing the client stories from the UX section in README.md file** ###
 
@@ -33,10 +33,10 @@ Websites most common path:
     * c) The website adjusts on different screen sizes to maintain it's clean, professional and aesthetically pleasing look.
 
 4. As a potential client I want to be able to contact the company and see where they are located
-    * a) The website has a contact us section on every page which features the location and telephone number of the company along with a contact form so users can send enquiries and check the location of the company at any time.
+    * a) The website has a contact us page which features the location and telephone number of the company along with a contact form so users can send enquiries and check the location of the company.
 
 5. As a potential client I want to be able to send an enquiry form.
-    * a) The websites 'Contact Us' section features an equiry form where users can also include a message for any specific information they would like answered.
+    * a) The websites 'Contact Us' page features an equiry form where users can also include a message for any specific information they would like answered.
 
 6. As a potential client I want to know more about the company and what their goal is 
     * a) The about us page features a section about the company history and their goals.
@@ -78,19 +78,16 @@ Websites most common path:
     * Reduced the screen size to mobile and tablet to verify that the cards take up their own column and appear one after the other. Test was successful.
     * Clicked on each card's button that directs to it's designated page to test that their links were working and directed users to the right page. Test was successful.
 
-5. Contact Us: 
-    * Opened the page and scrolled to the contact us section to verify it was there after the content of the page. Test was successful.
-    * Reduced and expanded the window to verify the contact us section is fully respnsive. Test was successful.
-    * Attempted to submit the contact form without filling in each required field to verify it would pop up with an error message. Test was successful.
-    * Attempted to submit the contact form without entering a correct email format to ensure that it would pop up with an error message. Test was successful.
+5. Call to action:
+    * Opened the page and clicked the call to action button to make sure it links to the Contact Us page. Test was successful.
 
-5. Footer:
+6. Footer:
     * Clicked on each social icon to ensure that they link to the correct site and are working. Test was successful.
     * Clicked on each social icon to ensure that they open in a new tab. Test was successful.
     * Clicked on each page link to ensure that they link to the correct page and do not open in a new tab. Test was successful.
     * Reduced and expanded the screen to ensure that the footer was fully responsive and did not cause any content to be commpressed and overlap. Test was successful.
 
-6. *Double checked all responsiveness and functionality on mobile and tablets.*
+7. *Double checked all responsiveness and functionality on mobile and tablets.*
 
 #### **The Xclusive Experience page:**
 
@@ -119,11 +116,13 @@ Websites most common path:
     * Resized the view to a mobile screen to verify the testiomnials changed so they each take up a full width column and appear one after the other without any content overlap. Test was successful.
     * Verified that the text remained center aligned across all screen sizes. Test was successful.
 
-7. Contact Us:
-    * Contact Us is identical on all pages across the site. Testing already successful.
+7. Call to action:
+    * Call to action is identical on all pages across the site. Testing already successful.
 
 8. Footer: 
     * Footer is identical on all pages across the site. Testing already successful.
+
+9. *Double checked all responsiveness and functionality on mobile and tablets.*
 
 #### **Xclusive Materials page:**
 
@@ -140,11 +139,13 @@ Websites most common path:
     * Clicked on each modal to ensure it displayed the right information and content. Test was successful.
     * Reduced and expanded the window after clicking on a modal to verify it was fully responsive. Test was successful.
 
-5. Contact Us:
-    *Contact Us is identical on all pages across the site. Testing already successful.
+4. Call to action:
+    * Call to action is identical on all pages across the site. Testing already successful.
 
-4. Footer: 
+5. Footer: 
     * Footer is identical on all pages across the site. Testing already successful.
+
+6. *Double checked all responsiveness and functionality on mobile and tablets.*
 
 #### **About Us page:** 
 
@@ -158,13 +159,23 @@ Websites most common path:
     * Opened the page on desktop to make sure the margin left and right was correctly set and centered the content with equal white space either side. Test was successful.
     * Reduced and expaded the window to verify that the margins left and right only appeard on large screens and dissapeared on medium and small screen so the content contained the entire screen. Test was successful.
 
-4. Contact Us:
-    *Contact Us is identical on all pages across the site. Testing already successful.
+4. Call to action:
+    * Call to action is identical on all pages across the site. Testing already successful.
 
 5. Footer: 
     * Footer is identical on all pages across the site. Testing already successful.
 
+6. *Double checked all responsiveness and functionality on mobile and tablets.*
 
+#### **Contact Us page**
+
+1. Contact Us page content: 
+    * Clicked on the 'Contact Us' nav item to verify it links to the contact page. Test was successful.
+    * Reduced and expanded the window to verify the contact us section is fully respnsive. Test was successful.
+    * Attempted to submit the contact form without filling in each required field to verify it would pop up with an error message. Test was successful.
+    * Attempted to submit the contact form without entering a correct email format to ensure that it would pop up with an error message. Test was successful.
+    
+2. *Double checked all responsiveness and functionality on mobile and tablets.*
 
 
 
