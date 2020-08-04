@@ -33,10 +33,11 @@ Stories:
 
 **Wireframe mockups:**
 
-
-
-
-
+* [Home]()
+* [The Xclusive Experience]()
+* [Xclsusive Materials]()
+* [About Us]()
+* [Contact Us]()
 
 ## **Features** 
 
@@ -169,7 +170,16 @@ To remove the GitHub repository type 'git remote rm origin' into the terminal.
 
 * The HTML used for the Contact Us section was originaly from [How to make responsive Contact Us Page in Bootstrap 4 || Contact form in Bootstrap 4](https://www.youtube.com/watch?v=wIH86qpmsKo&list=LLXm_cCPVSVam4yyPRnkl0AQ&index=3&t=3s).
 * The HTML used for the Footer was originaly taken from the Code Institute Resume Project in the User Centric Development module. 
+* The CSS used for the modal buttons images & headings was originaly taken from [How To Add Text Over Image](http://www.codeinstinct.site/how-to-add-text-over-image/) and then edited appropiately for this sites purpose.
 
+### **Acknowledgements**
+
+* I recieved insporation of this site from [David August](https://davidaugustinc.com/) one of the most famous suit tailors in the world.
+* My mentor Brian Macharia guided me along the way with tips on presentation and resources for writing code.
+
+#### **Disclaimer**
+
+The content on this website is for the purpose of this project only.
 
 
 
