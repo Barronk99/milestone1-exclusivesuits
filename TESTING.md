@@ -135,7 +135,7 @@ Websites most common path:
 3. Modals: 
     * Opened the page on desktop and verified the 4 modals shared 2 columns with 2 modals in each column equally taking half width of the screen. Test was successful.
     * Resized the view to tablet and mobile to verify each modal takes up it's own column so they appear one after the other. Test was successful however the only exception was the iPad Pro as it has a screen size over 892px so it is classed a large screen and can handle the 4 models appearing as they do on desktop.
-    * Reduced and expanded the screen to test that the headings over the images were respnsive and did not fall outside the image. The headings were not respnsive but on screens between 339px and 400px the headings began to fall out of the image. Although this is insignificant as these screen sizes do not match with tablet and mobile screens, the issue will be resolved by adding a new media query.
+    * Reduced and expanded the screen to test that the headings over the images were respnsive and did not fall outside the image on mobile and tablet screens. Test was successful.
     * Clicked on each modal to ensure it displayed the right information and content. Test was successful.
     * Reduced and expanded the window after clicking on a modal to verify it was fully responsive. Test was successful.
 
