@@ -173,13 +173,6 @@ h1,h2,h3,h4,h5 {
     font-size: 25px;
 }
 
-
-.materialcards1 {
-    background: url('assets/images/cotton-twill.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*.content-wrapper{
     width: 80%;
     margin: 4% 10% 5% 10%;
@@ -195,18 +188,9 @@ h1,h2,h3,h4,h5 {
     /* margin-top: -40%; */
     bottom: 5rem;
     color: #fff;
+    font-size: 30px;
 }
 
-/*.text-wrapper h3{
-    text-align: center;
-    color: #ffffff;
-    /*font-size: 10vw;
-    font-size: 3.5rem;
-}*/
-
-.italianwool {
-    position: relative;
-}
 
 /*about page*/
 
