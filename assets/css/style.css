@@ -31,6 +31,10 @@ h1,h2,h3,h4,h5 {
 
 /*--Home page*/
 
+.row {
+    margin-right: 0;
+}
+
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
