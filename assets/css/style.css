@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5 {
     line-height: inherit;
     white-space: nowrap;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     position: relative;
     right: 5px;
     margin-left: auto;
@@ -56,14 +56,6 @@ h1,h2,h3,h4,h5 {
     margin-right: auto;
 }
 
-/*--Navigation images 
-.NavCards {
-  position: relative;
-  font-family: 'Roboto'sans-serif;
-  height: 400px;
-  width: 100%;
-}
-*/
 .carousel-image-1 {
     background: url('../images/carousel-suit-1.jpg');
     background-repeat: no-repeat;
@@ -93,7 +85,7 @@ h1,h2,h3,h4,h5 {
 
 .imagetext {
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .image-overlay {
@@ -120,15 +112,6 @@ h1,h2,h3,h4,h5 {
 .salespitch p {
     text-align: center;
 }
-
-/*.bg-img {
-    background: url('https://i.pinimg.com/originals/1e/af/c4/1eafc4d1dd423d6f046534a62f0f531f.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-}
-*/
 
 .card {
     position: relative;
@@ -177,19 +160,9 @@ h1,h2,h3,h4,h5 {
     font-size: 25px;
 }
 
-/*.content-wrapper{
-    width: 80%;
-    margin: 4% 10% 5% 10%;
-}
-
-.content-wrapper img{
-    width: 100%;
-}*/
-
 .text-wrapper {
     width: 100%;
     position: relative;
-    /* margin-top: -40%; */
     bottom: 5rem;
     color: #fff;
     font-size: 30px;
@@ -206,8 +179,6 @@ img {
 
 .roundedimg {
     border-radius: 50%;
-    /*position: relative;
-    left: 85px;*/
     padding: 10px 0px 10px 0px;
     width: 200px;
 }
@@ -262,9 +233,3 @@ img {
         font-size: 2.5rem;
     }
 }
-
-/*@media (min-width: 470px) {
-    .materialcards {
-        padding-bottom: 10px;
-    }
-}*/
