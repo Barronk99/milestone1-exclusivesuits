@@ -1,301 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
 
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Xclsuive Suits | Xclusive Materials</title>
-</head>
-<body>
-<!--Header: Logo & Navbar. Using Bootstrap for the Navbar design.-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Xclsuive Suits | Xclusive Materials</title>
+  </head>
+  <body>
+    <!--Header: Logo & Navbar. Using Bootstrap for the Navbar design.-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">XCLUSIVE SUITS</a>
-            <button style="width: 100%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="xclusiveexperience.html">The Xclusive Experience</a>
-                    <a class="nav-item nav-link active" href="xclusivematerials.html">Xclusive Materials<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="aboutus.html">About Us</a>
-                    <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-<!--Header ends here-->
-
-<!--Images with model pop up featuring the description on materials-->
-<section>
-<h3 class="heading-text" style="padding-top: 10px;">Xclusive Materials</h3>
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-lg-6 materialcards">
-        <!--Putting the images inside the button so it becomes clickable and pops up with the model-->
-        <button type="button" class="btn btn-light btn-block imgbutton" data-toggle="modal" data-target="#exampleModal">  
-            <img src="assets/images/cotton-twill.jpg" alt="Cotton Twill">
-            <strong class="text-wrapper"> Cotton Twill</strong>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">XCLUSIVE SUITS</a>
+        <button
+          style="width: 100%;"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-<!--Modal-->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title heading-text" id="exampleModalLabel">Cotton Twill</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <div>
-      <img src="assets/images/cotton-material.jpg" alt="Cotton Cloths">
-      </div>
-      <hr>
-        <p class="content-text">If you’re after a slightly more casual vibe with your suit, cotton is your best bet – especially if you’ll be wearing it during the Summer months. 
-        Not as warm as wool, cotton is another lightweight option for the season with maximum breathability. Cotton is also king for comfort, and is a popular choice if you like natural fabrics. 
-        One of the best things about cotton suit fabric is that it comes in different weights, so you can choose a weight that will suit the purpose.
-        Choose a heavier weight cotton or a blend for work, which helps the fabric keep its silhouette.
-        </p> 
-        <hr>
-        <h5 class="heading-text">Top Qualities:</h5> <br>
-        <ul>
-        <li>Can be worn year round</li>
-        <li>Breathable</li>
-        <li>Comfortable</li>
-        <li>Classic style</li>
-        </ul>
-        <h5 class="heading-text">Our Choice:</h5>
-        <p class="content-text">This breathable cotton twill stretch is ideal for a skinny fit suit for slimmer builds, and can be worn all year round. 
-        With a very high thread count it is soft and light to the touch, and comfortable against the skin. 
-        A creamy, muted white base tone will add a natural edge to your designs.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-        </div> 
-<div class="col-12 col-lg-6 materialcards">
-<!--Putting the images inside the button so it becomes clickable and pops up with the model-->
-    <button type="button" class="btn btn-light btn-block imgbutton" data-toggle="modal" data-target="#exampleModal2">
-        <img src="https://blog.jimsformalwear.com/wp-content/uploads/2017/10/best-fabrics-for-suits-silk-1024x682.jpg" alt="Silk Suit">
-         <strong class="text-wrapper"> Natural Silk</strong>
-    </button>
- <!--Modal--> 
-<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title heading-text" id="exampleModalLabel2">Natural Silk</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <div>
-      <img src="assets/images/silk-material(2).jpg" alt="Silk Ties">
-      </div>
-      <hr>
-        <p class="content-text">Silk is one of the pricier options for suit buying, but for that red-carpet wow-factor
-         you couldn’t get a better choice. The luxury, superior comfort of all-natural silk means that your 
-         suit will be a dream to wear and will ooze elegance. Silk is also breathable, helping retain heat in the warmth 
-         and expelling it in cooler weather, making it ideal for year-round wearing.
-         </p>
-        <hr>
-        <h5 class="heading-text">Top Qualities:</h5><br>
-        <ul>
-        <li>Luxurious</li>
-        <li>Super comfortable</li>
-        <li>Breathable</li>
-        <li>Regulates temperature</li>
-        </ul>
-        <h5 class="heading-text">Our Choice:</h5><br>
-        <p class="content-text">Nothing beats our 100% genuine, natural silk fabric. This material is made of a satin weave, 
-        with an organzine warp, using crepe twist yarn and stands up well to everyday wear and tear.
-        The delicate and soft finish of the silk makes it a super comfortable suit, with a light, soft feel against the skin.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div> 
-<div class="col-12 col-lg-6 materialcards">
-<!--Putting the images inside the button so it becomes clickable and pops up with the model-->
-    <button type="button" class="btn btn-light btn-block imgbutton" data-toggle="modal" data-target="#exampleModal3">
-        <img src="assets/images/linen-suit.jpg" alt="Linen">
-        <strong class="text-wrapper">American Linen</strong>
-    </button>
- <!--Modal--> 
-<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title heading-text" id="exampleModalLabel3">American Linen</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <div>
-      <img src="assets/images/linen-material.jpg" alt="Linen material">
-      </div>
-      <hr>
-        <p class="content-text">Linen is your number one Summer option. As the lightest, most breathable fabric 
-        choice for suits it’s perfect for a classic sunny garden party or a Spring-time wedding.
-        Just beware of its easily wrinkled nature – no fabric wrinkles quite as easily as linen,
-        however it’s part of the package and is a little stylish when gently creased up. 
-        Linen suits are ideal for a more casual look, but can easily be dressed up when worn in darker colours.
-        </p> 
-        <hr>
-        <h5 class="heading-text">Top Qualities:</h5><br>
-        <ul>
-        <li>Very light and breathable</li>
-        <li>Comfortable against the skin</li>
-        <li>More casual option</li>
-        </ul>
-        <h5 class="heading-text">Our choice:</h5><br>
-        <p class="content-text">This 100% linen fabric is perfect if you’re looking for an all-natural, lightweight option. 
-        The real linen flax gives the fabric an ash-white base tone which gives your custom designs some extra character 
-        and a rustic element, perfect for a breezy Summer suit. For some added weight, 
-        try a slightly heavier Dorchester weave or Haverstock linen.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div> 
-<div class="col-12 col-lg-6 materialcards">
-<!--Putting the images inside the button so it becomes clickable and pops up with the model-->
-    <button type="button" class="btn btn-light btn-block imgbutton" data-toggle="modal" data-target="#exampleModal4">
-        <img class="italianwool" src="assets/images/italian-wool.jpg" alt="Italian Wool">
-        <strong class="text-wrapper">Italian Wool</strong>
-    </button>
- <!--Modal-->
-<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title heading-text" id="exampleModalLabel4">Italian Wool</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <div>
-      <img src="assets/images/wool-material.jpg" alt="Wool material">
-      </div>
-      <hr>
-       <p class="content-text">An endlessly versatile fabric, wool paves the way in suit fabric popularity. 
-       Being suitable for both mid-day heat and colder evenings, it’s ideal if you’re searching for that one year-round 
-       perfect piece which can be used for everything from job interviews to parties. The refined look will give you that ultimate ‘classic’ suit appeal, 
-       whilst being both soft and wrinkle free to remain smart throughout the day.
-       If you prefer slimmer fitting suits, wool may be one to avoid as it can be slightly bulky in appearance.
-       </p><hr>
-        <h5 class="heading-text">Top Qualities:</h5><br>
-        <ul>
-        <li>Breathable</li>
-        <li>Warm</li>
-        <li>Wrinkle-free</li>
-        <li>Soft</li>
-        </ul>
-        <h5 class="heading-text">Our choice:</h5><br>
-        <p class="content-text">This Italian fabric is your best bet if you’re looking to stand out from the croud with pure class. 
-        The Italian heritage gives the fabric an authentic feel which gives your custom designs a whole load of extra personality. 
-        For some added weight, try a slightly heavier weave.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div> 
-    </div>
-</div>
-</section>     
-
-<!--Call to action-->
-<div class="call-to-action">
-<a href="contactus.html" class="btn btn-dark btn-lg">Request a Quote</a>
-</div>   
-<hr>
-<!--Footer-->
-<!--Footer section used from Resume website in User Centric Development Module-->
-<footer class="page-footer bg-dark">
-    <div class="row">
-        <div class="col">
-            <ul class="nav justify-content-center footernav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="xclusiveexperience.html">Xclsuive Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="xclusivematerials.html">Xclsuive Materials</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact Us</a>
-                </li>
-            </ul>
-            <!--Social links section used from Resume project in User Centric Module-->
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook footericon" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter footericon" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.linkedin.com/" target="_blank"> <i class="fab fa-linkedin footericon" aria-hidden="true"></i>
-                    <span class="sr-only">Linkedin</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.pinterest.com/" target="_blank"> <i class="fab fa-pinterest footericon" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram footericon" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.youtube.com/" target="_blank"> <i class="fab fa-youtube footericon" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="footertext"> <!--New class made to style the text in this div-->
-            <small class="footertext">© 2020 Copyright: Xclsuive SUITS All Rights Reserved</small>
-            <p class="footertext">Website Designed & Developed by Barron Kerali - The Website Architect</p>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="xclusiveexperience.html"
+              >The Xclusive Experience</a
+            >
+            <a class="nav-item nav-link active" href="xclusivematerials.html"
+              >Xclusive Materials<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+            <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
+          </div>
         </div>
-    </div>
-</footer>
+      </nav>
+    </header>
+    <!--Header ends here-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
+    <!--Images with model pop up featuring the description on materials-->
+    <section>
+      <h3 class="heading-text" style="padding-top: 10px;">
+        Xclusive Materials
+      </h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 materialcards">
+            <!--Putting the images inside the button so it becomes clickable and pops up with the model-->
+            <button
+              type="button"
+              class="btn btn-light btn-block imgbutton"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              <img src="assets/images/cotton-twill.jpg" alt="Cotton Twill" />
+              <strong class="text-wrapper"> Cotton Twill</strong>
+            </button>
+            <!--Modal-->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title heading-text" id="exampleModalLabel">
+                      Cotton Twill
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                      <img
+                        src="assets/images/cotton-material.jpg"
+                        alt="Cotton Cloths"
+                      />
+                    </div>
+                    <hr />
+                    <p class="content-text">
+                      If you’re after a slightly more casual vibe with your
+                      suit, cotton is your best bet – especially if you’ll be
+                      wearing it during the Summer months. Not as warm as wool,
+                      cotton is another lightweight option for the season with
+                      maximum breathability. Cotton is also king for comfort,
+                      and is a popular choice if you like natural fabrics. One
+                      of the best things about cotton suit fabric is that it
+                      comes in different weights, so you can choose a weight
+                      that will suit the purpose. Choose a heavier weight cotton
+                      or a blend for work, which helps the fabric keep its
+                      silhouette.
+                    </p>
+                    <hr />
+                    <h5 class="heading-text">Top Qualities:</h5>
+                    <br />
+                    <ul>
+                      <li>Can be worn year round</li>
+                      <li>Breathable</li>
+                      <li>Comfortable</li>
+                      <li>Classic style</li>
+                    </ul>
+                    <h5 class="heading-text">Our Choice:</h5>
+                    <p class="content-text">
+                      This breathable cotton twill stretch is ideal for a skinny
+                      fit suit for slimmer builds, and can be worn all year
+                      round. With a very high thread count it is soft and light
+                      to the touch, and comfortable against the skin. A creamy,
+                      muted white base tone will add a natural edge to your
+                      designs.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 materialcards">
+            <!--Putting the images inside the button so it becomes clickable and pops up with the model-->
+            <button
+              type="button"
+              class="btn btn-light btn-block imgbutton"
+              data-toggle="modal"
+              data-target="#exampleModal2"
+            >
+              <img
+                src="https://blog.jimsformalwear.com/wp-content/uploads/2017/10/best-fabrics-for-suits-silk-1024x682.jpg"
+                alt="Silk Suit"
+              />
+              <strong class="text-wrapper"> Natural Silk</strong>
+            </button>
+            <!--Modal-->
+            <div
+              class="modal fade"
+              id="exampleModal2"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel2"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5
+                      class="modal-title heading-text"
+                      id="exampleModalLabel2"
+                    >
+                      Natural Silk
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                      <img
+                        src="assets/images/silk-material(2).jpg"
+                        alt="Silk Ties"
+                      />
+                    </div>
+                    <hr />
+                    <p class="content-text">
+                      Silk is one of the pricier options for suit buying, but
+                      for that red-carpet wow-factor you couldn’t get a better
+                      choice. The luxury, superior comfort of all-natural silk
+                      means that your suit will be a dream to wear and will ooze
+                      elegance. Silk is also breathable, helping retain heat in
+                      the warmth and expelling it in cooler weather, making it
+                      ideal for year-round wearing.
+                    </p>
+                    <hr />
+                    <h5 class="heading-text">Top Qualities:</h5>
+                    <br />
+                    <ul>
+                      <li>Luxurious</li>
+                      <li>Super comfortable</li>
+                      <li>Breathable</li>
+                      <li>Regulates temperature</li>
+                    </ul>
+                    <h5 class="heading-text">Our Choice:</h5>
+                    <br />
+                    <p class="content-text">
+                      Nothing beats our 100% genuine, natural silk fabric. This
+                      material is made of a satin weave, with an organzine warp,
+                      using crepe twist yarn and stands up well to everyday wear
+                      and tear. The delicate and soft finish of the silk makes
+                      it a super comfortable suit, with a light, soft feel
+                      against the skin.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 materialcards">
+            <!--Putting the images inside the button so it becomes clickable and pops up with the model-->
+            <button
+              type="button"
+              class="btn btn-light btn-block imgbutton"
+              data-toggle="modal"
+              data-target="#exampleModal3"
+            >
+              <img src="assets/images/linen-suit.jpg" alt="Linen" />
+              <strong class="text-wrapper">American Linen</strong>
+            </button>
+            <!--Modal-->
+            <div
+              class="modal fade"
+              id="exampleModal3"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel3"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5
+                      class="modal-title heading-text"
+                      id="exampleModalLabel3"
+                    >
+                      American Linen
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                      <img
+                        src="assets/images/linen-material.jpg"
+                        alt="Linen material"
+                      />
+                    </div>
+                    <hr />
+                    <p class="content-text">
+                      Linen is your number one Summer option. As the lightest,
+                      most breathable fabric choice for suits it’s perfect for a
+                      classic sunny garden party or a Spring-time wedding. Just
+                      beware of its easily wrinkled nature – no fabric wrinkles
+                      quite as easily as linen, however it’s part of the package
+                      and is a little stylish when gently creased up. Linen
+                      suits are ideal for a more casual look, but can easily be
+                      dressed up when worn in darker colours.
+                    </p>
+                    <hr />
+                    <h5 class="heading-text">Top Qualities:</h5>
+                    <br />
+                    <ul>
+                      <li>Very light and breathable</li>
+                      <li>Comfortable against the skin</li>
+                      <li>More casual option</li>
+                    </ul>
+                    <h5 class="heading-text">Our choice:</h5>
+                    <br />
+                    <p class="content-text">
+                      This 100% linen fabric is perfect if you’re looking for an
+                      all-natural, lightweight option. The real linen flax gives
+                      the fabric an ash-white base tone which gives your custom
+                      designs some extra character and a rustic element, perfect
+                      for a breezy Summer suit. For some added weight, try a
+                      slightly heavier Dorchester weave or Haverstock linen.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 materialcards">
+            <!--Putting the images inside the button so it becomes clickable and pops up with the model-->
+            <button
+              type="button"
+              class="btn btn-light btn-block imgbutton"
+              data-toggle="modal"
+              data-target="#exampleModal4"
+            >
+              <img
+                class="italianwool"
+                src="assets/images/italian-wool.jpg"
+                alt="Italian Wool"
+              />
+              <strong class="text-wrapper">Italian Wool</strong>
+            </button>
+            <!--Modal-->
+            <div
+              class="modal fade"
+              id="exampleModal4"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel4"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5
+                      class="modal-title heading-text"
+                      id="exampleModalLabel4"
+                    >
+                      Italian Wool
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div>
+                      <img
+                        src="assets/images/wool-material.jpg"
+                        alt="Wool material"
+                      />
+                    </div>
+                    <hr />
+                    <p class="content-text">
+                      An endlessly versatile fabric, wool paves the way in suit
+                      fabric popularity. Being suitable for both mid-day heat
+                      and colder evenings, it’s ideal if you’re searching for
+                      that one year-round perfect piece which can be used for
+                      everything from job interviews to parties. The refined
+                      look will give you that ultimate ‘classic’ suit appeal,
+                      whilst being both soft and wrinkle free to remain smart
+                      throughout the day. If you prefer slimmer fitting suits,
+                      wool may be one to avoid as it can be slightly bulky in
+                      appearance.
+                    </p>
+                    <hr />
+                    <h5 class="heading-text">Top Qualities:</h5>
+                    <br />
+                    <ul>
+                      <li>Breathable</li>
+                      <li>Warm</li>
+                      <li>Wrinkle-free</li>
+                      <li>Soft</li>
+                    </ul>
+                    <h5 class="heading-text">Our choice:</h5>
+                    <br />
+                    <p class="content-text">
+                      This Italian fabric is your best bet if you’re looking to
+                      stand out from the croud with pure class. The Italian
+                      heritage gives the fabric an authentic feel which gives
+                      your custom designs a whole load of extra personality. For
+                      some added weight, try a slightly heavier weave.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Call to action-->
+    <div class="call-to-action">
+      <a href="contactus.html" class="btn btn-dark btn-lg">Request a Quote</a>
+    </div>
+    <hr />
+    <!--Footer-->
+    <!--Footer section used from Resume website in User Centric Development Module-->
+    <footer class="page-footer bg-dark">
+      <div class="row">
+        <div class="col">
+          <ul class="nav justify-content-center footernav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="xclusiveexperience.html"
+                >Xclsuive Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="xclusivematerials.html"
+                >Xclsuive Materials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact Us</a>
+            </li>
+          </ul>
+          <!--Social links section used from Resume project in User Centric Module-->
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook footericon" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter footericon" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin footericon" aria-hidden="true"></i>
+                <span class="sr-only">Linkedin</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.pinterest.com/" target="_blank">
+                <i class="fab fa-pinterest footericon" aria-hidden="true"></i>
+                <span class="sr-only">Pinterest</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram footericon" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fab fa-youtube footericon" aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+              </a>
+            </li>
+          </ul>
+          <div class="footertext">
+            <!--New class made to style the text in this div-->
+            <small class="footertext"
+              >© 2020 Copyright: Xclsuive SUITS All Rights Reserved</small
+            >
+            <p class="footertext">
+              Website Designed & Developed by Barron Kerali - The Website
+              Architect
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
