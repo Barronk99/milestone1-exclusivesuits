@@ -33,12 +33,16 @@ Stories:
 
 **Wireframe mockups:**
 
-* [Home]()
-* [The Xclusive Experience]()
-* [Xclsusive Materials]()
-* [About Us]()
-* [Contact Us]()
-
+* [Home](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/Home.png) 
+* [Home Mobile](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/HomeMobile.png)
+* [The Xclusive Experience](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/Xclusive%20Experience.png)
+* [The Xclsusive Experience Mobile](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/XclusiveExperienceMobile.png)
+* [Xclsusive Materials](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/Xclusive%20materials.png)
+* [Xclusive Materials Mobile](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/XclusiveMaterialsMobile.png)
+* [About Us](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/Aboutus.png)
+* [About Us Mobile](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/AboutusMobile.png)
+* [Contact Us](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/ContactUs.png)
+* [Contact Us Mobile](https://github.com/Barronk99/milestone1-exclusivesuits/blob/2261f603f871b31d6460dbf72e2daeb98cd368f2/wireframes/ContactUsMobile.png)
 ## **Features** 
 
 All pages feature a navbar which is responsive with a fixed logo in the top left and the menu items to the right of the logo on desktop but appears centrally with the menu icon just below the logo on screen sizes less than 991px wide. 
